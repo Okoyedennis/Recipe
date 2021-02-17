@@ -1,0 +1,41 @@
+.recipe {
+  border-radius: 10px;
+  /* box-shadow: 0px 5px 20px rgb(71,71,71); */
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 40%;
+}
+
+.recipe h1 {
+  text-align: start;
+  margin-bottom: 1.5rem;
+}
+
+.recipe .image {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 2rem;
+  /* align-items: center; */
+}
+
+.recipe li {
+  padding-left: 0;
+  max-width: 600px;
+}
+
+.recipe .calories {
+  margin-top: 1rem;
+}
+
+.recipe .calories span {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .recipe .image {
+    /* width: 100%; */
+    height: auto;
+  }
+}
